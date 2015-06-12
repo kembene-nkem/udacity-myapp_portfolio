@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void appLunchButtonClicked(View view) {
+        // found details on how to programmatically get android resources from
+        // http://stackoverflow.com/questions/7493287/android-how-do-i-get-string-from-resources-using-its-name
         Button button = (Button)view;
         String buttonName = getResources().getResourceName(button.getId());
         // resource name will come in the format <package-name>:id/<name>
