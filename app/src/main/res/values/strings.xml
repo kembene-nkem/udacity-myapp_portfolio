@@ -17,4 +17,9 @@
     <string name="app_build_bigger_app_name">Build It Bigger App</string>
     <string name="app_xyz_app_name">XYZ Reader App</string>
     <string name="app_capstone_app_name">Capstone App</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Dash</item>
+    </string-array>
 </resources>

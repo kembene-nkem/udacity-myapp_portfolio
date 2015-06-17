@@ -11,6 +11,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/header"
+        android:gravity="center_horizontal"
         style="@style/appHeader"/>
 
     <LinearLayout
